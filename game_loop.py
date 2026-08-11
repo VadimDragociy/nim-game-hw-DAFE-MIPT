@@ -7,7 +7,7 @@ import os
 from nim_game.common.models import GameState, NimStateChange
 from nim_game.games.game_nim import GameNim
 
-from utils import print_game_state
+from .cli import print_game_state
 
 PATH_TO_CONFIG = os.path.join('game_config.json')
 
